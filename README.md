@@ -1,5 +1,6 @@
 # horned-beasts
 ## Overview
+
 *use the JSON file provided to display the title, image and description of each horned beast in your application.*
 
 
@@ -40,4 +41,7 @@ Finish time: ___2:25__
 
 Actual time needed to complete: 1:25_____
 
+
+
+*create a new React application using create-react-app and fill it with components.*
 
