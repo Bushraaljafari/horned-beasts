@@ -1,15 +1,35 @@
-import React from 'react';
-class HornedBeast extends React.Component{
-    render(){
-        console.log(this.props);
-        return(
+import React from "react";
+import "bootstrap/dist/css/bootstrap.min.css";
+import Card from "react-bootstrap/Card";
+class HornedBeast extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { counter: 0 };
+  }
 
-            <div>
-                <h2> {this.props.title}📓 </h2>
+  favoritImgeNum = () => {
+    this.setState({ counter: this.state. counter + 1 });
+  };
+
+  render() {
+    console.log(this.props);
+    return (
+      <div>
+        {/*<h2> {this.props.title}📓 </h2>
                 <p>{this.props.description}</p>
                 <img src={this.props.img} alt={this.props.title} title={this.props.title}/>
-            </div>
-        )
-    }
+                <p>favorited❤️:{this.state.counter}</p>*/}
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Body>
+            <Card.Img onClick={this.favoritImgeNum} src={this.props.img} />
+            <Card.Title>{this.props.title}</Card.Title>
+            <Card.Text>description📓: {this.props.description}</Card.Text>
+            <Card.Text>favorited❤️:{this.state.counter}</Card.Text>
+          </Card.Body>
+        </Card>
+      </div>
+    );
+  }
 }
-export default HornedBeast ;
+export default HornedBeast;
