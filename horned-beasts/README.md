@@ -73,6 +73,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 # horned-beasts
 ## Overview
 
+### Lab: Class 01
+*create a new React application using create-react-app and fill it with components.*
+
+
+### Lab: Class 02
 *use the JSON file provided to display the title, image and description of each horned beast in your application.*
 
 
@@ -114,6 +119,19 @@ Finish time: ___2:25__
 Actual time needed to complete: 1:25_____
 
 
+### Lab: Class 03
+**Passing Functions in Props**
 
-*create a new React application using create-react-app and fill it with components.*
+*adding a feature to my Gallery Of Horns that allows the user to click on an image and display it as a modal.*
 
+### Time Estimate
+
+1. Number and name of feature:  Display a Modal
+
+2. Estimate of time needed to complete: _10____
+
+3. Start time: __1:04___
+
+4. Finish time: ___11:02__
+
+5. Actual time needed to complete: _____

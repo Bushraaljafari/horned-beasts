@@ -1,6 +1,8 @@
 import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
+//
+import Button from "react-bootstrap/Button";
 class HornedBeast extends React.Component {
   constructor(props) {
     super(props);
@@ -8,8 +10,13 @@ class HornedBeast extends React.Component {
   }
 
   favoritImgeNum = () => {
-    this.setState({ counter: this.state. counter + 1 });
+    this.setState({ counter: this.state.counter + 1 });
   };
+
+  //
+  prop3Function = (para1, para2, para3) => {
+    this.props.prop2Function(para1, para2, para3);
+  }; //
 
   render() {
     console.log(this.props);
@@ -26,6 +33,12 @@ class HornedBeast extends React.Component {
             <Card.Title>{this.props.title}</Card.Title>
             <Card.Text>description📓: {this.props.description}</Card.Text>
             <Card.Text>favorited❤️:{this.state.counter}</Card.Text>
+            <Button
+              onClick={() => this.prop3Function(555, 77, 88)}
+              variant="primary"
+            >
+              show me{" "}
+            </Button>
           </Card.Body>
         </Card>
       </div>
