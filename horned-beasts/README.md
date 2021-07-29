@@ -135,3 +135,8 @@ Actual time needed to complete: 1:25_____
 4. Finish time: ___11:02__
 
 5. Actual time needed to complete: _____
+
+### Lab: Class 04
+**Forms and Filter**
+
+*i will be adding one more piece of functionality: filtering by numbers of horns.*
